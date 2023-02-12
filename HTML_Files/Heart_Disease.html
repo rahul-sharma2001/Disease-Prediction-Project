@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease</title>
+    <link rel="stylesheet" href="/CSS_Files/Heart_Disease.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formcontainer">
+        <form action="">
+            <div class="Tablecontainer">
+            <table>
+                <tr class="tablerows">
+                    <td><label for="age">Age</label></td>
+                    <td><input type="number" class="age" name="Age" required></td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="Gender">Gender</label> </td>
+                     <td><input type="radio" name="gender" id="Gender">Male
+                     <input type="radio" name="gender" id="Gender">Female</td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="ChestPain">ChestPainType</label> </td>
+                    <td> 
+                        <input type="radio" name="cp" id="chestpain">Atypical Angina
+                        <input type="radio" name="cp" id="chestpain">Non-Anginal Pain <br>
+                        <input type="radio" name="cp" id="chestpain">Asymptomatic
+                        <input type="radio" name="cp" id="chestpain">Typical Angina </td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="RestingBloodPressure">RestingBloodPressure</label> </td>
+                    <td> <input type="number" name="rbp" id="RestingBloodPressure"required></td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="SerumCholestrol">Cholestrol</label> </td>
+                    <td> <input type="number" name="sc" id="SerumCholestrol"required></td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="RER">FastingBS</label> </td>
+                    <td> <input type="radio" name="fastingbs" id="FBS">more than 120mg/dl <br>
+                        <input type="radio" name="fastingbs" id="FBS">less than 120mg/dl 
+                    </td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="RER">RestingECG</label> </td>
+                    <td> <input type="radio" name="RER" id="RER">Normal
+                        <input type="radio" name="RER" id="RER">ST 
+                        <input type="radio" name="RER" id="RER">LVH
+                    </td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="Maxheartrate">Maximum Heart Rate Achieved</label> </td>
+                    <td> <input type="number" name="MHR" id="Maxheartrate" required></td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="ExInduced">Excercise Induced Angina</label> </td>
+                    <td> <input type="radio" name="EIA" id="ExInduced">No
+                        <input type="radio" name="EIA" id="ExInduced">Yes</td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="Oldpeakst">OldPeak-ST Depression induces by Excercise relative to rest</label> </td>
+                    <td> <input type="text" name="ops" id="Oldpeakst"required></td>
+                </tr>
+                <tr class="tablerows">
+                    <td> <label for="SlopePeak">Slope of the peak excercise ST segment</label> </td>
+                    <td> <input type="radio" name="sp" id="SlopePeak">Up
+                        <input type="radio" name="sp" id="SlopePeak">Flat
+                        <input type="radio" name="sp" id="SlopePeak">Down</td>
+                </tr>
+                
+                <tr class="tablerows">
+                    <td colspan="2">
+                <button type="submit" id="submit" class="button">Submit
+                </button>
+            </td>
+            </tr>
+
+
+            </table>
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="/CSS_Files/Dashboard.css">
+</head>
+
+<body>
+    <div class="fullpage">
+    <header>
+        <h1>Welcome to Disease Prediction System</h1>
+        <!-- <button style="border:1px onset  black ;background:tomato;color:white; position: absolute;top:20px;left:20px">Home</button> -->
+      </header>
+    <main>
+        <div class="dashboard-container">
+            <div class="button-container">
+                <p class="token">{% csrf_token %} </p>
+                <button class="logout">Logout</button>
+            </div>
+            <div class="main-content">
+                <div class="dropdown">
+                    <button class="dropbtn">Select</button>
+                    <div class="dropdown-content">
+                        <a href="heart-disease/">Heart Disease</a>
+                    </div>
+                </div>
+                <div class="record-table">
+                    <table>
+                        <tr >
+                            <th>Disease </th>
+                            <th>Result</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                        </tr>
+                        <!-- {% for item in r %} -->
+                        <tr height="30px">
+                            <td>Heart Disease</td>
+                            <td>Positive</td>
+                            <td>{{item.date}}</td>
+                            <td>{{item.time}}</td>
+                        </tr>
+                        <tr  height="30px">
+                            <td>{{item.disName}}</td>
+                            <td>{{item.res}}</td>
+                            <td>{{item.date}}</td>
+                            <td>{{item.time}}</td>
+                        </tr>
+                        <tr  height="30px">
+                            <td>{{item.disName}}</td>
+                            <td>{{item.res}}</td>
+                            <td>{{item.date}}</td>
+                            <td>{{item.time}}</td>
+                        </tr>
+                        <tr  height="30px">
+                            <td>{{item.disName}}</td>
+                            <td>{{item.res}}</td>
+                            <td>{{item.date}}</td>
+                            <td>{{item.time}}</td>
+                        </tr>
+                        <tr  height="30px">
+                            <td>{{item.disName}}</td>
+                            <td>{{item.res}}</td>
+                            <td>{{item.date}}</td>
+                            <td>{{item.time}}</td>
+                        </tr>
+                        <tr  height="30px">
+                            <td>{{item.disName}}</td>
+                            <td>{{item.res}}</td>
+                            <td>{{item.date}}</td>
+                            <td>{{item.time}}</td>
+                        </tr>
+                        <tr  height="30px">
+                            <td>{{item.disName}}</td>
+                            <td>{{item.res}}</td>
+                            <td>{{item.date}}</td>
+                            <td>{{item.time}}</td>
+                        </tr>
+                        
+                        
+                        
+                    </table>
+                </div>
+                <div class="dashboard">
+                    <p>Patient Information</p>
+                    <div class="username">Username: rooshi_1234</div>
+                    <div class="name">Name: Rooshi Dhinaiya</div>
+                    <div class="emai">Email: rooshidhinaiya@gmail.com </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer--container">
+
+            <div>
+              <p>&copy;Yash Limbad</p>
+              <p>Contact: yashlimbad@gmail.com</p>
+              <p> Mobile no: 9789096756;</p>
+      
+            </div>
+            <div>
+              <p>&copy;Rahul Sharma</p>
+              <p>Contact: rabk4985@gmail.com</p>
+              <p> Mobile no: 9428023813;</p>
+            </div>
+            <div>
+              <p>&copy;Rooshi Dhinaiya</p>
+              <p>Contact: rooshidhinaiya@gmail.com</p>
+              <p> Mobile no: 9510512103;</p>
+            </div>
+            <div>
+              <p>&copy;Krishna Trada</p>
+              <p>Contact: krishnatrada@gmail.com</p>
+              <p> Mobile no: 9789096756;</p>
+            </div>
+      
+          </div>
+
+    </footer>
+</div>
+
+</body>
+
+</html>
