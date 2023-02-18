@@ -4,20 +4,11 @@
 
     
 }
-*{
-    /* font-family: Arial, Helvetica, sans-serif; */
-}
+
 .fullpage{
-  background: url(/Images/dashboard.jpg);
-  /* background: rgb(200,200,200); */
+    background: url(/Images/dashboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-body{
-    /* background-image: url(signup.jpg); */
-    /* background: rgb(200,200,200);
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 button{
     padding: 5px;
@@ -102,12 +93,10 @@ background: rgb(1, 91, 53);
     margin:0 5px;
     height: 50px;
     text-align: center;
-    /* color:white; */
   }
   .dashboard div{
     margin:10px 5px ;
     height: 30px;
-    /* border:2px solid black; */
   }
   table{
     padding: 0;
@@ -128,20 +117,14 @@ background: rgb(1, 91, 53);
     height: 50px;
     margin: 0;
   }
-  /* .record-table tr:nth-child(2n+3){
-    background-color: rgb(203, 228, 203);
-  } */
+
   .record-table tr{
     background: #fff;
-  }
-  th{
-    /* border:2px solid black; */
   }
   tr{
     padding: 5px;
   }
   td{
-    /* border:2px solid black; */
     text-align: center;
     height: 20px;
     padding-right: 0;
@@ -158,11 +141,9 @@ background: rgb(1, 91, 53);
   }
   h1{
     text-align:  center;
-    /* padding-right: 5%; */
     margin: 0;
     padding-top:20px;
     height: 70px;
-    /* border: 2px solid black */
   }
   body{
     padding: 0;

@@ -1,0 +1,18 @@
+
+.footer--container{
+    background: rgb(6, 30, 89);
+    height: 200px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer{
+    background: rgb(6, 30, 89);
+    color: white;
+}
+H2{
+    text-align: center;
+}

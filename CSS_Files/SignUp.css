@@ -12,11 +12,9 @@ input{
 }
 h1{
     text-align:  center;
-    /* padding-right: 5%; */
     margin: 0;
     padding-top:20px;
     height: 70px;
-    /* border: 2px solid black; */
     
 }
 .signupbox{
@@ -24,7 +22,6 @@ h1{
     margin: 10px;
 }
 .signupbox-container{
-    border: 2px solid black;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -35,7 +32,6 @@ body{
     padding: 0;
 }
 header{
-    /* border:2px solid black; */
     background: rgb(12,120,75);
     color:white;
 }
@@ -73,7 +69,6 @@ tr{
 
 }
 td{
-    /* border:2px solid black; */
     padding: 5px;
 }
 
